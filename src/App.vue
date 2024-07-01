@@ -12,7 +12,7 @@
       </div>
 
       <ul>
-        <li></li>
+        <li><img src="/cart.svg" alt="cart" /> <b>1205 TL</b></li>
         <li></li>
         <li></li>
       </ul>
