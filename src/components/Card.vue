@@ -1,6 +1,7 @@
 <script setup>
 defineProps({
-  imageUrl: String
+  imageUrl: String,
+  title: String
 })
 </script>
 
@@ -13,7 +14,7 @@ defineProps({
       >
         <img src="/like-1.svg" alt="Like 1" class="absolute top-0 left-0" />
         <img :src="imageUrl" alt="Like 1" />
-        <p>Nike Blazer Mid Suede</p>
+        <p>{{ title }}</p>
         <div class="flex justify-between mt-5">
           <div class="flex flex-col">
             <span>2250TL</span>
