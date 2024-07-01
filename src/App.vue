@@ -14,7 +14,7 @@
       <ul>
         <li><img src="/cart.svg" alt="Cart" /> <b>1205 TL</b></li>
         <li><img src="/heart.svg" alt="Cart" /> <b></b></li>
-        <li></li>
+        <li><img src="/profile.svg" alt="Cart" /> <b></b>/li></li>
       </ul>
     </header>
 
