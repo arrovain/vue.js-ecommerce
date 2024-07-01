@@ -6,12 +6,12 @@
       <div class="flex items-center gap-4">
         <img src="/logo.png" alt="logo" class="w-10" />
         <div>
-          <h2>İcme Sneakers</h2>
-          <p>Best seller sneakers</p>
+          <h2 class="text-xl font-bold uppercase">İcme Sneakers</h2>
+          <p class="text-slate-500">Best seller sneakers</p>
         </div>
       </div>
 
-      <ul class="">
+      <ul class="flex items-center gap-3">
         <li><img src="/cart.svg" alt="Cart" /> <b>sepet</b></li>
         <li><img src="/heart.svg" alt="Cart" /> <b>favoriler</b></li>
         <li><img src="/profile.svg" alt="Cart" /> <b>hesabım</b></li>
