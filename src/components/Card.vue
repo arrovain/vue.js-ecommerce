@@ -22,7 +22,7 @@ defineProps({
           <div class="flex flex-col">
             <span>{{ price }}</span>
           </div>
-          <img src="/plus.svg" alt="Plus" />
+          <img :src="isAdded ? '/plus.svg' : '/checked.svg'" alt="Plus" />
         </div>
       </div>
     </div>
