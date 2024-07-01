@@ -12,9 +12,13 @@
       </div>
 
       <ul class="flex items-center gap-3">
-        <li><img src="/cart.svg" alt="Cart" /> <b>sepet</b></li>
-        <li><img src="/heart.svg" alt="Cart" /> <b>favoriler</b></li>
-        <li><img src="/profile.svg" alt="Cart" /> <b>hesabım</b></li>
+        <li class="flex items-center gap-3"><img src="/cart.svg" alt="Cart" /> <b>sepet</b></li>
+        <li class="flex items-center gap-3">
+          <img src="/heart.svg" alt="Cart" /> <b>favoriler</b>
+        </li>
+        <li class="flex items-center gap-3">
+          <img src="/profile.svg" alt="Cart" /> <b>hesabım</b>
+        </li>
       </ul>
     </header>
 
