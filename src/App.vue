@@ -10,6 +10,23 @@ const drawerOpen = ref(false)
 
 const totalPrice = computed(() => cart.value.reduce((acc, item) => acc + item.price, 0))
 const vatPrice = computed(() => Math.round((totalPrice.value * 5) / 100))
+const closeDrawer = () => {
+  drawerOpen.value = false
+}
+
+const openDrawer = () => {
+  drawerOpen.value = true
+}
+
+const addToCart = (item) => {
+  cart.value.push(item)
+  item.isAdded = true
+}
+
+const removeFromCart = (item) => {
+  cart.value.splice(cart.value.indexOf(item), 1)
+  item.isAdded = false
+}
 </script>
 
 <template>
