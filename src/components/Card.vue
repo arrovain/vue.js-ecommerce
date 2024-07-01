@@ -2,7 +2,9 @@
 defineProps({
   imageUrl: String,
   title: String,
-  price: Number
+  price: Number,
+  isFavorite: Boolean,
+  isAdded: Boolean
 })
 </script>
 
