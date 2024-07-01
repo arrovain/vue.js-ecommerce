@@ -7,6 +7,7 @@ import Header from './components/Header.vue'
     <Header />
     <div>
       <img src="/like-1.svg" alt="Like 1" />
+      <img src="/sneakers/sneakers-1.jpg" alt="Like 1" />
     </div>
   </div>
 </template>
