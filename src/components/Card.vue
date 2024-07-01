@@ -1,3 +1,9 @@
+<script setup>
+defineProps({
+  imageUrl: String
+})
+</script>
+
 <template>
   <div class="bg-white rounded-xl h-screen w-4/5 m-auto shadow-xl mt-14">
     <Header />
