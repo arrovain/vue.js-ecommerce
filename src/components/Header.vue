@@ -3,7 +3,7 @@
     <div class="flex items-center gap-4">
       <img src="/logo.png" alt="logo" class="w-10" />
       <div>
-        <h2 class="text-xl font-bold uppercase">İcme Sneakers</h2>
+        <h2 class="text-xl font-bold uppercase">Arrovain Sneakers</h2>
         <p class="text-slate-500">En Çok Satan Sneakerlar</p>
       </div>
     </div>
