@@ -1,7 +1,8 @@
 <script setup>
 defineProps({
   imageUrl: String,
-  title: String
+  title: String,
+  price: Number
 })
 </script>
 
@@ -17,7 +18,7 @@ defineProps({
         <p>{{ title }}</p>
         <div class="flex justify-between mt-5">
           <div class="flex flex-col">
-            <span>2250TL</span>
+            <span>{{ price }}</span>
           </div>
           <img src="/plus.svg" alt="Plus" />
         </div>
