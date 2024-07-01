@@ -32,6 +32,6 @@ const removeFromCart = (item) => {
 <template>
   <div class="bg-white rounded-xl h-screen w-4/5 m-auto shadow-xl mt-14">
     <Header />
-    <h2 class="text-3xl font-bold mb-8">SNEAKERLAR</h2>
+    <h2 class="text-3xl font-bold mb-8">SPOR AYAKKABILAR</h2>
   </div>
 </template>
