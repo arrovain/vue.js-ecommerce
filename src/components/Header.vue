@@ -4,7 +4,7 @@
       <img src="/logo.png" alt="logo" class="w-10" />
       <div>
         <h2 class="text-xl font-bold uppercase">İcme Sneakers</h2>
-        <p class="text-slate-500">Best seller sneakers</p>
+        <p class="text-slate-500">En Çok Satan Sneakerlar</p>
       </div>
     </div>
 
